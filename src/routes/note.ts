@@ -1,14 +1,5 @@
 import { Router } from "express";
-import { createNote, deleteAllNote, deleteNoteById, getAllNote, getNoteById, updateNote } from "../controllers/note";
-
-
-// Method | Path | Description
-// GET | /notes | List all notes (with paging/filter)
-// POST | /notes | Create a new note
-// GET | /notes/:id | Fetch a single note by ID
-// PUT | /notes/:id | Replace all fields of a note
-// PATCH | /notes/:id | Update one or more fields
-// DELETE | /notes/:id | Delete a note
+import { createNote, deleteAllNote, deleteNoteById, getAllNote, getNoteById, replaceNote, updateNote } from "../controllers/note";
 
 const router = Router()
 
