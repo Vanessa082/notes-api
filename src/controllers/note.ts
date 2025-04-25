@@ -6,6 +6,14 @@ try {
 }
 }
 
+export const replaceNote = () => {
+  try {
+    
+  } catch (error) {
+    
+  }
+  }
+
 export const getNoteById = () => {
   try {
     
@@ -22,13 +30,22 @@ export const getAllNote = () => {
   }
 }
 
-export const deleteNote = () => {
+export const deleteNoteById = () => {
   try {
     
   } catch (error) {
     error
   }
 }
+
+export const deleteAllNote = () => {
+  try {
+    
+  } catch (error) {
+    error
+  }
+}
+
 
 export const updateNote = () => {
   try {
