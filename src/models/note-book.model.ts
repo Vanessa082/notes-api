@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { INotebook } from "../interface/note";
 
 const noteBookSchema = new mongoose.Schema({
   title: {
@@ -19,4 +20,4 @@ const noteBookSchema = new mongoose.Schema({
 }
 )
 
-export const NoteBook = mongoose.model('notebook', noteBookSchema)
+export const NoteBook = mongoose.model<INotebook>('notebook', noteBookSchema)

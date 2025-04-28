@@ -7,3 +7,10 @@ export interface INote extends Document {
   createdAt: Date;
   updatedAt: Date;
 }
+
+export interface INotebook extends Document {
+  title: string;
+  description: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
