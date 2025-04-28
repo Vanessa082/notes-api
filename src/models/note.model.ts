@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { Note } from "../interface/note";
+import { INote } from "../interface/note";
 
 export const noteSchema = new mongoose.Schema({
   title: {
@@ -25,4 +25,4 @@ export const noteSchema = new mongoose.Schema({
   },
 })
 
-export type NoteDocument = mongoose.HydratedDocument<Note>
+export const Note = mongoose.model<INote>('Note', noteSchema);

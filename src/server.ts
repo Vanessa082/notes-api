@@ -1,6 +1,6 @@
 import app from "./app";
 import mongoose from 'mongoose';
-import { dbUrl, port } from './config/config.';
+import { dbUrl, port } from './config/config';
 
 let server: ReturnType<typeof app.listen>
 

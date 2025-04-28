@@ -8,3 +8,5 @@ router.post('/', createNoteBook)
 router.get('/notebooks', getNoteBooks)
 router.put('/:id', updateNoteBookById)
 router.delete('/:id', deleteNoteBookById)
+
+export default router;
